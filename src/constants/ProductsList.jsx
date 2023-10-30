@@ -38,7 +38,7 @@ export const ProductsList = [
     id: 2,
     img: pic1,
     title: "Étiquettes thermiques",
-    text: " idéales pour l'impression sans encre, souvent utilisées pour les reçus, codes-barres et étiquetage efficace",
+    text: " idéales pour l'impression sans encre, souvent utilisées pour les reçus, codes a barres et étiquetage efficace",
     img1: thermiques1,
     img2: thermiques2,
     img3: thermiques3,

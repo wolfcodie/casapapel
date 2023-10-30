@@ -11,8 +11,8 @@ function Contact() {
         Nos Contact
       </h2>
       <p className="w-[50%] max-lg:w-[70%] max-sm:w-[90%] m-auto opacity-[.8] font-medium text-[16px] ">
-        Pour toutes vos commandes et questions, veuillez nous contacter aux les
-        numéros suivants :
+        Pour toutes vos commandes et questions, veuillez contacter les numéros
+        suivants :
       </p>
       <ContactSection home="home" />
       <iframe

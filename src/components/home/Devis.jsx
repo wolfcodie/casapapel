@@ -13,9 +13,9 @@ function Devis() {
       </h2>
       <div className="flex justify-between items-center gap-7 max-lg:block">
         <article className="boxShadow max-lg:my-5  p-3 py-5 flex flex-col items-center justify-center gap-2 rounded-xl ">
-          <img className="h-[40px]" src={dollar} alt="dollar" />
+          <img className="h-[50px]" src={service} alt="service" />
           <h4 className="text-[25px] max-sm:text-[18px] my-3 font-semibold">
-            Prix compétitifs
+            Service
           </h4>
           {/* <p className="w-[80%] max-md:w-[90%] opacity-[.8] text-[14px]">
             Prix avantageux, satisfaisant vos besoins tout en respectant votre
@@ -31,10 +31,11 @@ function Devis() {
             Excellence de qualité est notre priorité absolue dans chaque service
           </p> */}
         </article>
+
         <article className="boxShadow max-lg:my-5  p-3 py-5 flex flex-col items-center justify-center gap-2 rounded-xl ">
-          <img className="h-[50px]" src={service} alt="service" />
+          <img className="h-[40px]" src={dollar} alt="dollar" />
           <h4 className="text-[25px] max-sm:text-[18px] my-3 font-semibold">
-            Service
+            Prix compétitifs
           </h4>
           {/* <p className="w-[80%] max-md:w-[90%] opacity-[.8] text-[14px]">
             Prix avantageux, satisfaisant vos besoins tout en respectant votre
