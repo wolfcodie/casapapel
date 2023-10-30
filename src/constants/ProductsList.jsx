@@ -64,7 +64,7 @@ export const ProductsList = [
   {
     id: 5,
     img: ruban,
-    title: "rubans Transfert  Thermique",
+    title: "Rubans Transfert  Thermique",
     text: "Produits  spéciale conçue pour les imprimantes à transfert thermique, offrant une impression durable et de haute qualité.",
     img1: ruban1,
     img2: ruban2,
