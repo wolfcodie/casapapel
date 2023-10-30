@@ -4,7 +4,7 @@ import taps from "../../assets/taps.png";
 function Points() {
   return (
     <section className=" text-center py-10  max-lg:my-9 ">
-      <h2 className="text-[48px] font-bold text-darkBlue mb-14 max-sm:text-[38px]">
+      <h2 className="text-[48px] font-bold text-darkBlue mb-14 max-sm:text-[30px]">
         Nos Points Forts
       </h2>
       <div className="flex justify-between items-center gap-5 max-lg:flex-col max-md:gap-2 max-lg:justify-center">

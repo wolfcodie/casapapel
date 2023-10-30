@@ -64,8 +64,8 @@ export const ProductsList = [
   {
     id: 5,
     img: ruban,
-    title: "ruban zebra",
-    text: "spéciales conçues pour les imprimantes à transfert thermique, offrant une impression durable et de haute qualité.",
+    title: "rubans Transfert  Thermique",
+    text: "Produits  spéciale conçue pour les imprimantes à transfert thermique, offrant une impression durable et de haute qualité.",
     img1: ruban1,
     img2: ruban2,
     img3: ruban3,

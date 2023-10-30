@@ -1,7 +1,7 @@
-import facebook from "../../assets/png/facebook.png";
-import envelope from "../../assets/png/Envelope.png";
-import instagram from "../../assets/png/instagram.png";
-import linkdin from "../../assets/png";
+import facebook from "../../assets/facebook.png";
+import envelope from "../../assets/Envelope.png";
+import instagram from "../../assets/instagram.png";
+import linkdin from "../../assets/Linkedin.png";
 function SocialMedia() {
   return (
     <ul className="flex items-center justify-center gap-2 mt-4 max-lg:my-9 max-sm:mt-10 lg:w-[fit-content] xl:max-w-[300px]">

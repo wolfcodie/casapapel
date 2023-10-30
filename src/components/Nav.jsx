@@ -2,10 +2,17 @@ import { useState } from "react";
 import logo from "../assets/logo.png";
 import phone_white from "../assets/phone_white.png";
 import menu from "../assets/menu.png";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 
 export default function Nav() {
   const [showNav, setshowNav] = useState(false);
+
+  const handleLinkClick = (sectionId) => () => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <header className="max-w-[1680px] m-auto w-[90%]  rounded-b-lg ">
@@ -22,18 +29,24 @@ export default function Nav() {
         </Link>
         <ul className="nav flex">
           <li>
-            <Link to="/" href="#hero">
+            <Link to="/" onClick={handleLinkClick("hero")}>
               Accueil
             </Link>
           </li>
           <li>
-            <a href="#devis">Notre devis </a>
+            <Link to="/" onClick={handleLinkClick("devis")}>
+              Notre devis
+            </Link>
           </li>
           <li>
-            <a href="#catalog">Catalog</a>
+            <Link to="/" onClick={handleLinkClick("catalog")}>
+              Catalog
+            </Link>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <Link to="/" onClick={handleLinkClick("contact")}>
+              Contact
+            </Link>
           </li>
         </ul>
         <div className="nav_btn_holder flex justify-end max-md:flex-2 flex-1 max-md:justify-center">

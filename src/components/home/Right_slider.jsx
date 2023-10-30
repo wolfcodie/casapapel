@@ -45,8 +45,8 @@ function Right_slider({ product }) {
           onClick={() => handleImageClick(!product ? pictwo : product.img1)}
           className={
             source === (!product ? pictwo : product.img1)
-              ? "bordered h-[100px] border object-contain w-[100px] max-sm:w-[32%] max-sm:h-[80px] p-2 bg-white rounded-xl shadow-md  cursor-pointer"
-              : "h-[100px] border object-contain w-[100px]  max-sm:w-[32%] max-sm:h-[80px] p-2 bg-white rounded-xl shadow-md  cursor-pointer"
+              ? "bordered h-[100px] border object-contain w-[100px] max-sm:w-[32%] max-sm:h-[80px] p-2 bg-white rounded-xl cursor-pointer"
+              : "h-[100px] border object-contain w-[100px]  max-sm:w-[32%] max-sm:h-[80px] p-2 bg-white rounded-xl cursor-pointer"
           }
         />
         <img
@@ -55,8 +55,8 @@ function Right_slider({ product }) {
           alt="ticket"
           className={
             source === (!product ? Couche : product.img2)
-              ? "h-[100px] border object-contain bordered w-[100px] p-2 bg-white  max-sm:w-[32%] max-sm:h-[80px] rounded-xl shadow-md  cursor-pointer"
-              : "h-[100px] border object-contain  w-[100px] p-2 bg-white  max-sm:w-[32%] max-sm:h-[80px] rounded-xl shadow-md  cursor-pointer"
+              ? "h-[100px] border object-contain bordered w-[100px] p-2 bg-white  max-sm:w-[32%] max-sm:h-[80px] rounded-xl   cursor-pointer"
+              : "h-[100px] border object-contain  w-[100px] p-2 bg-white  max-sm:w-[32%] max-sm:h-[80px] rounded-xl   cursor-pointer"
           }
           onClick={() => handleImageClick(!product ? Couche : product.img2)}
         />
@@ -66,8 +66,8 @@ function Right_slider({ product }) {
           alt="ticket"
           className={
             source === (!product ? pp : product.img3)
-              ? "h-[100px] border object-contain  bordered w-[100px] p-2 bg-white  max-sm:w-[32%] max-sm:h-[80px] rounded-xl shadow-md  cursor-pointer"
-              : "h-[100px] border object-contain  w-[100px] p-2 bg-white  max-sm:w-[32%] max-sm:h-[80px] rounded-xl shadow-md  cursor-pointer"
+              ? "h-[100px] border object-contain  bordered w-[100px] p-2 bg-white  max-sm:w-[32%] max-sm:h-[80px] rounded-xl   cursor-pointer"
+              : "h-[100px] border object-contain  w-[100px] p-2 bg-white  max-sm:w-[32%] max-sm:h-[80px] rounded-xl   cursor-pointer"
           }
           onClick={() => handleImageClick(!product ? pp : product.img3)}
         />
