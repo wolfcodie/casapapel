@@ -8,7 +8,7 @@ function Contact() {
       className=" text-center max-md:p-0 py-10 max-lg:my-9 flex flex-col justify-center items-center gap-6 "
     >
       <h2 className="text-[48px] max-sm:text-[30px]  font-bold text-darkBlue mb-4">
-        Nos Contact
+        Contactez-nous
       </h2>
       <p className="w-[50%] max-lg:w-[70%] max-sm:w-[90%] m-auto opacity-[.8] font-medium text-[16px] ">
         Pour toutes vos commandes et questions, veuillez contacter les numéros
