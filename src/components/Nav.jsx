@@ -24,7 +24,7 @@ export default function Nav() {
           <img
             src={logo}
             alt="logo"
-            className="h-[70px] w-[80px] max-sm:h-[40px] max-sm:w-[50px]  cursor-pointer "
+            className="h-[60px] w-[80px] max-sm:h-[40px] max-sm:w-[50px]  cursor-pointer "
           />
         </Link>
         <ul className="nav flex">

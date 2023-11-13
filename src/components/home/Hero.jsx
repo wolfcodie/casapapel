@@ -11,7 +11,7 @@ function Hero() {
             Casapapel Maroc
           </span>
           <br />
-          Spécialiste de la fabrication d'étiquettes adhésives a Tanger
+          Spécialiste de la fabrication d'étiquettes adhésives à Tanger
         </h1>
         <p className="font-openSans opacity-[.8] my-6 w-[70%] max-lg:w-full text-[14px] max-sm:text-[12px]">
           Casapapel Maroc est un fabricant industriel d'étiquettes adhésives en

@@ -5,7 +5,11 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer className="skills_section text-center  flex justify-center items-center flex-col gap-4 py-10">
-      <img src={logo} alt="logo" />
+      <img
+        src={logo}
+        alt="logo"
+        className="h-[60px] w-[80px] max-sm:h-[40px] max-sm:w-[50px]  cursor-pointer "
+      />
 
       <ul className="flex gap-6 my-3 max-sm:flex-col">
         <li>
