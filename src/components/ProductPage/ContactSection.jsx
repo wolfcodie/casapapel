@@ -55,7 +55,7 @@ function ContactSection({ home }) {
         target="_blank"
       >
         <img src={map_black} alt="phone" className="h-[20px]" />
-        Route de Rabat Local N°47 Tangier
+        Route de Rabat Local N°47 Tanger
       </a>
     </div>
   );

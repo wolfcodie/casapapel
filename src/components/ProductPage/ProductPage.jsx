@@ -2,11 +2,12 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import { ProductsList } from "../../constants/ProductsList";
 import Right_slider from "../home/Right_slider";
-import phone from "../../assets/phone-black.png";
-import phone_white from "../../assets/phone_white.png";
-import map_black from "../../assets/map-black.png";
-import mail from "../../assets/map-black.png";
+// import phone from "../../assets/phone-black.png";
+// import phone_white from "../../assets/phone_white.png";
+// import map_black from "../../assets/map-black.png";
+// import mail from "../../assets/map-black.png";
 import ContactSection from "./ContactSection";
+import { Helmet } from "react-helmet";
 
 function ProductPage() {
   const { productId } = useParams("productId");
@@ -21,6 +22,16 @@ function ProductPage() {
 
   return (
     <section className="flex justify-between max-w-[1680px] m-auto w-[90%]  max-lg:block  min-h-[90vh] items-start flex-wrap py-10">
+      <Helmet>
+        <title>{`${product.title} - CasaPapel Tanger`}</title>
+        <meta name="description" content={product.description} />
+        <meta property="og:image" content={product.image} />
+
+        <meta name="twitter:title" content={product.title} />
+        <meta name="twitter:description" content={product.description} />
+        <meta name="twitter:image" content={product.image} />
+      </Helmet>
+
       <Right_slider product={product} />
       <article className="flex-1 max-lg:text-center">
         <h1 className="max-sm:text-[40px] text-[50px] font-bold">

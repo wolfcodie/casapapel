@@ -6,7 +6,7 @@ function Hero() {
   return (
     <section className="flex justify-between max-lg:block  min-h-[90vh] items-center flex-wrap">
       <article className="flex-1 max-lg:text-center">
-        <h1 className="max-sm:text-[25px] text-[50px] font-bold max-sm:my-8">
+        <h1 className="max-sm:text-[25px] text-[48px] font-bold max-sm:my-8">
           <span className="text-pink text-[60px] max-sm:text-[40px]">
             Casapapel Maroc
           </span>

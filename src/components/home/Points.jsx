@@ -17,7 +17,7 @@ function Points() {
         <article className="boxShadow max-lg:h-[fit-content]  h-[200px] bg-black text-white max-lg:my-4  p-3 py-10 w-[30%] max-lg:w-[80%] max-sm:w-[100%] flex flex-col items-center justify-center gap-2 rounded-xl shadow-sm">
           <img className="h-[50px]" src={bag} alt="qualite" />
           <p className=" w-[80%] max-md:w-[90%] opacity-[.8] text-[20px]">
-            Large gamme de matériaux et de finitions disponibles.
+            Large gamme des matériaux et de finitions disponibles.
           </p>
         </article>
         <article className="boxShadow max-lg:h-[fit-content]  h-[200px] bg-black text-white max-lg:my-4  p-3 py-10 w-[30%] max-lg:w-[80%] max-sm:w-[100%] flex flex-col items-center justify-center gap-2 rounded-xl shadow-sm">

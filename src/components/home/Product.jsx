@@ -11,7 +11,7 @@ function Product({ prd }) {
       <h2 className="text-black font-semibold text-[25px] max-sm:text-[20px]">
         {prd.title}
       </h2>
-      <p className=" w-[90%] max-md:w-[90%] opacity-[.8] text-[14px] text-black">
+      <p className=" w-[90%] max-md:w-[90%] opacity-[.8] text-[14px] font-regular text-black">
         {prd.text}
       </p>
       <Link

@@ -2,7 +2,7 @@ import { useState } from "react";
 import logo from "../assets/logo.png";
 import phone_white from "../assets/phone_white.png";
 import menu from "../assets/menu.png";
-import { Link, useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Nav() {
   const [showNav, setshowNav] = useState(false);
@@ -35,7 +35,7 @@ export default function Nav() {
           </li>
           <li>
             <Link to="/" onClick={handleLinkClick("devis")}>
-              Notre devis
+              Notre Devise
             </Link>
           </li>
           <li>

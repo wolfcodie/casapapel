@@ -3,6 +3,12 @@ import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
 
 function Footer() {
+  const handleLinkClick = (sectionId) => () => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <footer className="skills_section text-center  flex justify-center items-center flex-col gap-4 py-10">
       <img
@@ -13,24 +19,40 @@ function Footer() {
 
       <ul className="flex gap-6 my-3 max-sm:flex-col">
         <li>
-          <Link className="text-[16px] font-semibold" to="/" href="#hero">
+          <Link
+            className="text-[16px] font-semibold"
+            to="/"
+            onClick={handleLinkClick("hero")}
+          >
             Accueil
           </Link>
         </li>
         <li>
-          <a className="text-[16px] font-semibold" href="#devis">
-            Notre devis
-          </a>
+          <Link
+            className="text-[16px] font-semibold"
+            to="/"
+            onClick={handleLinkClick("devis")}
+          >
+            Notre Devise
+          </Link>
         </li>
         <li>
-          <a className="text-[16px] font-semibold" href="#catalog">
+          <Link
+            className="text-[16px] font-semibold"
+            to="/"
+            onClick={handleLinkClick("catalog")}
+          >
             Catalog
-          </a>
+          </Link>
         </li>
         <li>
-          <a className="text-[16px] font-semibold" href="#contact">
+          <Link
+            className="text-[16px] font-semibold"
+            to="/"
+            onClick={handleLinkClick("contact")}
+          >
             Contact
-          </a>
+          </Link>
         </li>
       </ul>
       <span className="opacity-[.6] text-[14px]">
