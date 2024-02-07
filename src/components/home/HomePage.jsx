@@ -13,7 +13,7 @@ function HomePage() {
         <title>CASAPAPEL MAROC - Découvrez l'Élégance Des Étiquettes</title>
         <meta
           name="description"
-          content="Welcome to my website! Explore our products and services."
+          content="Casapapel Maroc est un fabricant industriel spécialisé dans la production d'étiquettes adhésives en rouleaux depuis 2015. Nous sommes experts dans la fabrication de petites et grandes séries ainsi que dans l'impression flexographique. Notre équipe réactive est dédiée à vous accompagner dans le choix des matériaux, des processus et des technologies les plus adaptés à vos besoins. Faites confiance à notre expertise pour garantir des solutions sur mesure et de haute qualité pour vos étiquetages."
         />
       </Helmet>
       <Hero />
