@@ -30,6 +30,26 @@ function ProductPage() {
         <meta name="twitter:title" content={product.title} />
         <meta name="twitter:description" content={product.description} />
         <meta name="twitter:image" content={product.image} />
+        <script type="application/ld+json">{`
+          {
+            "@context": "http://schema.org",
+            "@type": "Product",
+            "name": "${product.name}",
+            "description": "${product.description}",
+            "image": "${product.image}",
+            "sku": "${product.sku}",
+            "brand": {
+              "@type": "Brand",
+              "name": "${product.brand}"
+            },
+            "offers": {
+              "@type": "Offer",
+              "priceCurrency": "${product.priceCurrency}",
+              "price": "${product.price}",
+              "availability": "${product.availability}"
+            }
+          }
+        `}</script>
       </Helmet>
 
       <Right_slider product={product} />

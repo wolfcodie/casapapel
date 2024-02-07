@@ -17,30 +17,18 @@ function Devis() {
           <h4 className="text-[25px] max-sm:text-[18px] my-3 font-semibold">
             Service
           </h4>
-          {/* <p className="w-[80%] max-md:w-[90%] opacity-[.8] text-[14px]">
-            Prix avantageux, satisfaisant vos besoins tout en respectant votre
-            budget.
-          </p> */}
         </article>
         <article className="boxShadow max-lg:my-5  p-3 py-5 flex flex-col items-center justify-center gap-2 rounded-xl ">
           <img className="h-[50px]" src={qualite} alt="qualite" />
           <h4 className="text-[25px] max-sm:text-[18px] my-3 font-semibold">
             Qualité
           </h4>
-          {/* <p className="w-[80%] max-md:w-[90%] opacity-[.8] text-[14px]">
-            Excellence de qualité est notre priorité absolue dans chaque service
-          </p> */}
         </article>
-
         <article className="boxShadow max-lg:my-5  p-3 py-5 flex flex-col items-center justify-center gap-2 rounded-xl ">
           <img className="h-[40px]" src={dollar} alt="dollar" />
           <h4 className="text-[25px] max-sm:text-[18px] my-3 font-semibold">
             Prix
           </h4>
-          {/* <p className="w-[80%] max-md:w-[90%] opacity-[.8] text-[14px]">
-            Prix avantageux, satisfaisant vos besoins tout en respectant votre
-            budget.
-          </p> */}
         </article>
       </div>
     </section>
